@@ -8,4 +8,8 @@ RUN pip3.5 install Pillow
 RUN pip3.5 install libsass
 RUN pip3.5 install greenlet
 RUN pip3.5 install gevent
+RUN pip3.5 install cryptography
+RUN pip3.5 install ujson
+RUN pip3.5 install bcrypt
+RUN pip3.5 install cffi
 
